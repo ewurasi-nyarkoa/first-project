@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: o;
+    text-decoration: none;
+}
+.navlinks {
+    background-color: whitesmoke;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+
+#hero {
+     background-image:url("image.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 100vh;
+     width: 100vw;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#hero-title{
+    color: white;
+   font-size: 3rem;
+}
+#hero-subtext{
+    color: white;
+    font-size: 1.5rem;
+
+}
+#hero-button{
+    color: white;
+    background-color: aquamarine;
+    height: 41px;
+    padding: 9px;
+    border-radius: 14px;
+    gap: 10PX;
+
+
+}
+
+.create {
+    height: 100vh;
+    width: 100vw;
+    background-color: #32DBC6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero2-items {
+    padding: 10px;
+    background: blue;
+}
+.fa-solid {
+    color: #32DBC6;
+}
+.second {
+    height: 1369px;
+    width: 1498px;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+
+.size {
+    height: 469px;
+    width: 469px;
+}
+.textwhite {
+    color: white;
+}
+.footerlist{
+    height: 100vh;
+    width: 100vw;
+}
+.down {
+    height: 100px;
+    background-color: #32DBC6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footeritems {
+    background-color: #333333;
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.done {
+    background-color: #333333;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 74vw;
+}
+.red {
+    color: red;
+}
+    
+
